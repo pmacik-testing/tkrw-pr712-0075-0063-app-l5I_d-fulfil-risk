@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-sshp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0063-tenant/tkrw-pr712-0075-0063-app/devfile-sample-sshp@sha256:22a0f703885a88dc69419863da74eb5f580a7e470544177f93be6be8a445535b
         name: my-nodejs
         ports:
         - containerPort: 3001
